@@ -4,13 +4,14 @@
   "description": "A curated collection of the finest AI-generated portraits of US presidents eating burritos",
   "version": "0.1.0",
   "license": "0BSD",
-  "homepage": "https://www.tesladethray.me/peb",
+  "homepage": "https://www.tesladethray.me/presidents-eating-burritos",
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "eslint",
     "start": "gatsby develop",
     "serve": "gatsby serve"
   },
@@ -23,13 +24,13 @@
     "slugify": "^1.6.5"
   },
   "devDependencies": {
+    "eslint": "^8.18.0",
     "prettier": "^2.7.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tesladethray/peb"
-  },
+  "repository": "https://github.com/tesladethray/presidents-eating-burritos",
   "bugs": {
-    "url": "https://github.com/tesladethray/peb/issues"
-  }
+    "url": "https://github.com/tesladethray/presidents-eating-burritos/issues"
+  },
+  "main": "index.js",
+  "author": "Sara McCutcheon <sara+github@pantheon.io>"
 }

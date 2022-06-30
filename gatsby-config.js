@@ -5,6 +5,6 @@
  */
 
 module.exports = {
-  pathPrefix: '/peb',
-  plugins: ['gatsby-plugin-react-helmet'],
+  pathPrefix: "/presidents-eating-burritos",
+  plugins: ["gatsby-plugin-react-helmet"],
 }
