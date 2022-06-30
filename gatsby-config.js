@@ -5,6 +5,6 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  pathPrefix: '/peb',
+  plugins: ['gatsby-plugin-react-helmet'],
 }

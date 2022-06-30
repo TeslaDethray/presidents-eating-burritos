@@ -1,0 +1,59 @@
+body {
+  background: lightgray;
+  color: black;
+  filter: drop-shadow(0rem 0rem 0.5rem white);
+  font-family: 'Playfair Display', serif;
+}
+
+a,
+a:visited,
+a:active {
+  color: black;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center > div {
+  height: 90%;
+  width: 90%;
+}
+
+figcaption {
+  size: 2rem;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  display: inline-block;
+  flex: 1 1;
+}
+
+.gallery {
+  margin-bottom: 2rem;
+}
+
+.portrait {
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: drop-shadow(1rem 1rem 0.75rem rgba(0, 0, 0, 0.3));
+  margin-bottom: 1rem;
+}
+
+.portrait-box {
+  height: 400px;
+  margin: 3rem 1rem;
+  max-height: 400px;
+  max-width: 442px;
+  width: 442px;
+}
