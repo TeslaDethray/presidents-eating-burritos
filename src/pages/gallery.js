@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import slugify from "slugify";
 
 import images from './data';

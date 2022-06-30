@@ -18,6 +18,7 @@ const Home = () => (
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet" />
     </Helmet>
     <h1 className="center">{SITE_NAME}</h1>
+    <aside className="curse-warning">WARNING: Slightly Cursed</aside>
     <Gallery />
     <center>Images generated with <a href="https://www.craiyon.com/">CrAIyon</a></center>
   </div>
