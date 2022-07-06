@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-import Gallery from "./gallery"
+import Gallery from "./gallery/Gallery"
 
 const SITE_NAME = "Presidents Eating Burritos"
 
@@ -20,12 +20,7 @@ const Home = () => (
         rel="stylesheet"
       />
     </Helmet>
-    <h1 className="center">{SITE_NAME}</h1>
-    <aside className="curse-warning">WARNING: Slightly Cursed</aside>
     <Gallery />
-    <center>
-      Images generated with <a href="https://www.craiyon.com/">CrAIyon</a>
-    </center>
   </div>
 )
 
