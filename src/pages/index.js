@@ -10,15 +10,9 @@ const Home = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>{SITE_NAME}</title>
-      <link rel="canonical" href="https://www.tesladethray.me/peb" />
+      <link rel="canonical" href="https://www.tesladethray.me/presidents-eating-burritos" />
       <link href="/favicon/favicon.ico" rel="icon" />
       <link href="/styles/styles.css" rel="stylesheet" type="text/css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
-        rel="stylesheet"
-      />
     </Helmet>
     <Gallery />
   </div>
