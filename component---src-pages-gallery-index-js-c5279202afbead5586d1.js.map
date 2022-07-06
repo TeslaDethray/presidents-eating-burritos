@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-gallery-index-js-c5279202afbead5586d1.js","mappings":"kKAEA,UAAeA,EAAf","sources":["webpack://presidents-eating-burritos/./src/pages/gallery/index.js"],"sourcesContent":["import Gallery from './Gallery';\n\nexport default Gallery;"],"names":["Gallery"],"sourceRoot":""}
