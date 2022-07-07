@@ -41,3 +41,9 @@
 .slides::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-height: 700px) {
+  .gallery {
+    margin-top: 150px;
+  }
+}
